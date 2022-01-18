@@ -1,2 +1,8 @@
 # Google App Engine generated folder
 appengine-generated/
+# ignore all logs
+*.log
+# ignore all intermediary files
+*.ilk
+# ignore all library files
+*.lib

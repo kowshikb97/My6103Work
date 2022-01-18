@@ -1,5 +1,5 @@
 #%%
-print("Hello world")
+print("Hello Kowshik")
 print(5 / 8)
 print (7+10)
 print(10/3, 3/10) # print numerical divisions
@@ -7,24 +7,27 @@ print(10//3, 3//10) # print quotients from divisions
 print(10%3, 3%10) # print remainders from divisions
 
 #%%
-astring = "Thank you"
+astring = "Good Morning"
+astring1 = "Welcome to Data Mining"
+astring2 = "Welcome to Data Scinece"
+astring3 = "Welcome to Data Warehousing"
 anum = 3.14159265358979323846
 cnt = 1
 # Many different ways to print out the same line
 print("%d. I want to say %s" % (cnt,astring) )
 cnt+=1
-print(cnt,". I want to say" + astring )
+print(cnt,". I want to say" + astring1 )
 cnt+=1
-print(cnt, ". I want to say",astring )
+print(cnt, ". I want to say",astring2 )
 cnt+=1
-print("%d. I want to say %s, my sweetie %.3f" % (cnt,astring,anum) )
+print("%d. I want to say %s, my sweetie %.3f" % (cnt,astring3,anum) )
 cnt+=1
-print("%d. I want to say %s, my sweetie digit %d" % (cnt,astring,anum) )
+print("%d. I want to say %s, my sweetie digit %d" % (cnt,astring1,anum) )
 cnt+=1
-print("%d. I want to say %s, my sweetie long %f" % (cnt,astring,anum) )
+print("%d. I want to say %s, my sweetie long %f" % (cnt,astring2,anum) )
 cnt+=1
 # For python 3.6+, we can use the f-string
-print(f"{cnt}. I want to say {astring}, my sweetie long {anum.__round__(3)}")
+print(f"{cnt}. I want to say {astring3}, my sweetie long {anum.__round__(3)}")
 cnt+=1
 # see https://python-reference.readthedocs.io/en/latest/docs/str/formatting.html
 # s-string, d-digit (int), f-float
